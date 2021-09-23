@@ -13,8 +13,11 @@
     background-color: black;
 }
 
-.debug > .top_bar{
-
+.debug > .canzoni{
+    background-color: violet;
+    height: 50px;
+    width: 25px;
+    margin-top: 5%;
 }
 /********* /Debug **********/
 
@@ -28,6 +31,7 @@ footer{
     width: 100%;
     background-color: #282828;
     position: fixed;
+    z-index: 100;
 }
 /********* /Body Main Footer **********/
 
@@ -38,9 +42,10 @@ footer{
 
 /********* Side Bar **********/
 .side_bar{
-   width: 250px;
+   width: 200px;
    height: calc(100vh - 90px);
    position: fixed;
+   z-index: 100;
 }
 /********* /Side Bar **********/
 
@@ -48,12 +53,27 @@ footer{
 /********* Top Bar **********/
 .top_bar{
     height: 90px;
-    width: calc(100% - 250px);
+    width: calc(100% - 200px);
     position: fixed;
     background-color: #00000099;
     top: 0;
     right: 0;
+    z-index: 100;
 }
 /********* /Top Bar **********/
+
+
+
+/********* Contenitore Canzoni **********/
+.cont_canzoni{
+    background-color: #141922;
+    width: calc(100% - 200px);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0%;
+    right: 0;
+}
+/********* /Contenitore Canzoni **********/
 
 /********* /Contenuto Main **********/
