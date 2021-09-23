@@ -121,6 +121,19 @@ footer{
     top: 0;
     right: 0;
     z-index: 100;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.upgrade{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-right: 10px;
 }
 /********* /Top Bar **********/
 
