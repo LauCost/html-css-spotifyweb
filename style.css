@@ -49,15 +49,16 @@ footer{
    z-index: 100;
    display: flex;
    flex-direction: column;
+   justify-content: space-between;
 }
 
-.menu{
+.menu, .user{
     width: 90%;
     margin: 0 auto;
     margin-top: 20px;
 }
 
-.menu, .utility, .playlist{
+.menu, .utility, .playlist, .user{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -70,7 +71,7 @@ footer{
 .utility{
     margin: 20px 0;
 }
-.utility > a, .playlist > a {
+.utility > a, .playlist > a, .user > a, .user > p {
     text-decoration: none;
     color: #717171;
     margin: 7px 0;
@@ -94,6 +95,17 @@ footer{
 #add{
     display: flex;
     align-items: center;
+}
+
+.user > p{
+    color: #FFFFFF;
+    border-top: 1px solid #717171;
+    padding-top: 10px;
+    width: 90%;
+}
+
+.user > p > span > i{
+    margin-right: 10px;
 }
 /********* /Side Bar **********/
 
