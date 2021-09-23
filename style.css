@@ -3,3 +3,57 @@
     margin: 0;
     padding: 0;
 }
+
+/********* Debug **********/
+.debug > main{
+    background-color: burlywood;
+}
+
+.debug > .side_bar{
+    background-color: black;
+}
+
+.debug > .top_bar{
+
+}
+/********* /Debug **********/
+
+/********* Body Main Footer **********/
+main{
+    height: calc(100vh - 90px);
+}
+
+footer{
+    height: 90px;
+    width: 100%;
+    background-color: #282828;
+    position: fixed;
+}
+/********* /Body Main Footer **********/
+
+
+
+/********* Contenuto Main **********/
+
+
+/********* Side Bar **********/
+.side_bar{
+   width: 250px;
+   height: calc(100vh - 90px);
+   position: fixed;
+}
+/********* /Side Bar **********/
+
+
+/********* Top Bar **********/
+.top_bar{
+    height: 90px;
+    width: calc(100% - 250px);
+    position: fixed;
+    background-color: #00000099;
+    top: 0;
+    right: 0;
+}
+/********* /Top Bar **********/
+
+/********* /Contenuto Main **********/
