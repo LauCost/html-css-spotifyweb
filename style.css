@@ -196,4 +196,46 @@ footer{
     margin-right: 10px;
 }
 
+
+
+/* Riproduzione */
+.riproduzione{
+    text-align: center;
+    width: 50%;
+}
+
+.icone_riproduzione > i{
+    color: #FFFFFF;
+    margin: 0 10px;
+}
+
+.play{
+    font-size: 25px;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.line_canzone{
+    width: 70%;
+    height: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5A5A5A;
+}
+
+.linea_riprodotta{
+    background-color: #C1C1C1;
+    height: 5px;
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+}
+
 /********* /Contenuto Footer **********/
