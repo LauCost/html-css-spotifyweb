@@ -238,4 +238,33 @@ footer{
     width: 20%;
 }
 
+
+/* Volume */
+.volume{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.volume > i{
+    color: #FFFFFF;
+    margin: 0 10px;
+}
+
+.linea_volume{
+    width: 60%;
+    height: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5A5A5A;
+    margin-left: 10px;
+}
+
+.volume_selezionato{
+    background-color: #C1C1C1;
+    height: 5px;
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+}/* /Volume */
 /********* /Contenuto Footer **********/
