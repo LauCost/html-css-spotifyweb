@@ -5,6 +5,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.clearfix{
+    display: block;
+    content: "";
+    clear: both;
+}
+
 /********* Debug **********/
 .debug > main{
     background-color: burlywood;
@@ -33,6 +39,9 @@ footer{
     background-color: #282828;
     position: fixed;
     z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 /********* /Body Main Footer **********/
 
@@ -152,3 +161,39 @@ footer{
 /********* /Contenitore Canzoni **********/
 
 /********* /Contenuto Main **********/
+
+
+
+
+/********* Contenuto Footer **********/
+.can_riprodotta{
+    width: 20%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.can_riprodotta > img{
+    height: 50px;
+    margin-right: 15px;
+}
+
+.can_riprodotta > p, .icone{
+    color: #858585;
+    font-weight: 600;
+}
+
+.can_riprodotta > p > span{
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.icone{
+    margin-left: 15%;
+}
+
+.icone > i{
+    margin-right: 10px;
+}
+
+/********* /Contenuto Footer **********/
