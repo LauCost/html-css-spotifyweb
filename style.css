@@ -80,15 +80,24 @@ footer{
 .utility{
     margin: 20px 0;
 }
+
+
 .utility > a, .playlist > a, .user > a, .user > p {
     text-decoration: none;
     color: #717171;
     margin: 7px 0;
     font-size: 15px;
     font-weight: 600;
+    display: flex;
+    align-items: center;
 }
 #home{
     color: #FFFFFF;
+}
+
+a > img{
+    height: 30px;
+    margin-right: 5px;
 }
 
 .playlist > h4{
@@ -113,8 +122,18 @@ footer{
     width: 90%;
 }
 
-.user > p > span > i{
+.user > p > img{
     margin-right: 10px;
+    height: 35px;
+    border: none;
+    background-color: #717171;
+    border-radius: 50%;
+    padding: 2px 4px;
+    color: white;
+}
+
+.user > a > i{
+    margin-right: 15px;
 }
 /********* /Side Bar **********/
 
