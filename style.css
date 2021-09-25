@@ -31,8 +31,6 @@
 /********* Body Main Footer **********/
 main{
     height: calc(100vh - 90px);
-    overflow: auto;
-    overflow-x: hidden;
 }
 
 footer{
@@ -188,20 +186,29 @@ nav > a{
 .cont_canzoni{
     background-color: #141922;
     width: calc(100% - 190px);
+    height: calc(100vh - 90px);
     display: flex;
     flex-direction: column;
     position: absolute;
     top: 0%;
     right: 0;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.cont_canzoni > p{
+    color: #75777C;
+    width: 95%;
+    margin: 10px auto;
+    font-weight: 600;
 }
 
 /*********** Sezione Recently  ********/
-.recently, h2{
+.recently, h2, .creato_per_te{
     color: #FFFFFF;
     width: 95%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
 }
 
 h2{
@@ -213,7 +220,7 @@ h2{
     flex-direction: column;
     width: 15.7%;
     align-items: center;
-    margin: 25px 0;
+    margin: 25px 25px 30px 0;
 }
 
 .canzone > img{
@@ -230,7 +237,10 @@ h2{
 
 h3{
     text-align: center;
+    font-weight: 600;
 }
+
+
 /*********** /Sezione Recently  ***********/
 
 
