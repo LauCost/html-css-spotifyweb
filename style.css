@@ -168,6 +168,20 @@ a > img{
 
 
 /********* Contenitore Canzoni **********/
+nav{
+    width: 100%;
+    text-align: center;
+    margin-top: 115px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #696B70;
+    font-weight: 600;
+    margin: 0 12px;
+}
+
+
 .cont_canzoni{
     background-color: #141922;
     width: calc(100% - 190px);
