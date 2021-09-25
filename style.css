@@ -204,7 +204,7 @@ nav > a{
 }
 
 /*********** Sezione Recently  ********/
-.recently, h2, .creato_per_te{
+.recently, h2, .creato_per_te, .artisti_popolari{
     color: #FFFFFF;
     width: 95%;
     margin: 0 auto;
@@ -239,9 +239,17 @@ h3{
     text-align: center;
     font-weight: 600;
 }
-
-
 /*********** /Sezione Recently  ***********/
+
+
+
+
+/*********** Artisti Popolari  ********/
+.tondo > img{
+    border-radius: 50%;
+}
+/*********** /Artisti Popolari  ********/
+
 
 
 
