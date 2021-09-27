@@ -213,15 +213,18 @@ nav > a{
 }
 
 /*********** Sezione Recently  ********/
-.recently, h2, .creato_per_te, .artisti_popolari{
+.recently, .creato_per_te, .artisti_popolari{
     color: #FFFFFF;
     width: 95%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 h2{
     margin: 40px auto 0 auto;
+    color: #FFFFFF;
+    width: 95%;
 }
 
 .canzone{
@@ -229,7 +232,7 @@ h2{
     flex-direction: column;
     width: 15.7%;
     align-items: center;
-    margin: 25px 25px 30px 0;
+    margin: 25px 0.9% 30px 0;
 }
 
 .canzone > img{
@@ -377,12 +380,26 @@ h3{
 
 
 /********* Media Query ***********/
-@media screen and (max-width: 1020px) {
-    
+@media screen and (max-width: 1200px) {
+    .canzone{
+        width: 24%;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .canzone{
+        width: 24%;
+    }
+
+
 }
 
 @media screen and (max-width: 766px) {
-    
+    .canzone{
+        width: 49%;
+    }
 }
 
 
@@ -432,6 +449,10 @@ h3{
     /********* Contenitore Canzoni **********/
     .cont_canzoni{
         width: calc(100% - 60px);
+    }
+
+    .canzone{
+        width: 49%;
     }
     /********* /Contenitore Canzoni **********/
 
