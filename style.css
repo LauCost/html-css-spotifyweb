@@ -63,8 +63,6 @@ footer{
 }
 
 .menu, .user{
-    width: 90%;
-    margin: 0 auto;
     margin-top: 20px;
 }
 
@@ -80,6 +78,7 @@ footer{
 
 .menu > img{
     height: 40px;
+    padding-left: 10px;
 }
 
 .utility{
@@ -95,9 +94,11 @@ footer{
     font-weight: 600;
     display: flex;
     align-items: center;
+    padding-left: 10px;
 }
 #home{
     color: #FFFFFF;
+    border-left: 2px solid yellow;
 }
 
 a > img{
@@ -113,6 +114,7 @@ a > img{
 .playlist > h4{
     color: #FFFFFF;
     font-weight: 600;
+    padding-left: 10px;
 }
 
 #add > i{
@@ -351,6 +353,7 @@ h3{
     width: 20%;
     display: flex;
     align-items: center;
+    margin-right: 25px;
 }
 
 .volume > i{
@@ -400,6 +403,13 @@ h3{
     .canzone{
         width: 49%;
     }
+
+
+    /*********** Contenuto Footer ***********/
+    .riproduzione{
+        width: 45%;
+    }
+    /*********** /Contenuto Footer ***********/
 }
 
 
@@ -455,5 +465,11 @@ h3{
         width: 49%;
     }
     /********* /Contenitore Canzoni **********/
+
+    /*********** Contenuto Footer ***********/
+    .riproduzione{
+
+    }
+    /*********** /Contenuto Footer ***********/
 
 }
