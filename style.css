@@ -175,6 +175,11 @@ a > img{
     font-size: 15px;
     margin-right: 10px;
 }
+
+.upgrade:hover{
+    cursor: pointer;
+    font-size: 25px;
+}
 /********* /Top Bar **********/
 
 
@@ -194,6 +199,22 @@ nav > a{
     margin: 0 12px;
 }
 
+.active{
+    position: relative;
+}
+
+.active::after {
+content:"";
+width: 35px;
+height: 1px;
+border: 1px solid #ADFF2F;
+background-color: #ADFF2F;
+display: block;
+position:absolute;
+left: 50%;
+bottom: -2px;
+transform:translateX(-50%)
+}
 
 .cont_canzoni{
     background-color: #141922;
@@ -236,11 +257,38 @@ h2{
     width: 15.7%;
     align-items: center;
     margin: 25px 0.9% 30px 0;
+    position: relative;
+    transition: all 0.5s;
 }
 
 .canzone > img{
     width: 100%;
     margin-bottom: 10px;
+}
+
+.canzone > i{
+    position: absolute;
+    font-size: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -105%);
+    display: none;
+    transition: all 0.5s;
+}
+
+.canzone > .centrato{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+
+.canzone:hover{
+    filter: brightness(0.5);
+    cursor: pointer;
+}
+
+.canzone:hover i{
+    display: block;
 }
 
 .canzone > p{
@@ -424,6 +472,10 @@ a:hover{
     .canzone{
         width: 24%;
     }
+
+    .volume_selezionato{
+        width: 30%;
+    }
 }
 
 
@@ -433,6 +485,9 @@ a:hover{
         width: 24%;
     }
 
+    .volume_selezionato{
+        width: 40%;
+    }
 
 }
 
@@ -445,6 +500,10 @@ a:hover{
     /*********** Contenuto Footer ***********/
     .riproduzione{
         width: 45%;
+    }
+
+    .volume_selezionato{
+        width: 70%;
     }
     /*********** /Contenuto Footer ***********/
 }
@@ -510,6 +569,10 @@ a:hover{
 
     .volume > .none{
         display: none;
+    }
+
+    .volume_selezionato{
+        width: 50%;
     }
     /*********** /Contenuto Footer ***********/
 
