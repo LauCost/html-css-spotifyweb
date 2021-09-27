@@ -184,6 +184,7 @@ nav{
     width: 100%;
     text-align: center;
     margin-top: 115px;
+    line-height: 50px;
 }
 
 nav > a{
@@ -238,7 +239,6 @@ h2{
 }
 
 .canzone > img{
-    height: 270px;
     width: 100%;
     margin-bottom: 10px;
 }
@@ -268,7 +268,9 @@ h3{
 
 
 /********* /Contenitore Canzoni **********/
-
+a:hover{
+    color: #FFFFFF;
+}
 /********* /Contenuto Main **********/
 
 
@@ -305,6 +307,11 @@ h3{
     margin-right: 10px;
 }
 
+.icone > i:hover{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
 
 
 /* Riproduzione */
@@ -322,6 +329,11 @@ h3{
     font-size: 25px;
 }
 
+.play:hover{
+    font-size: 29px;
+    cursor: pointer;
+}
+
 .time{
     display: flex;
     align-items: center;
@@ -331,7 +343,7 @@ h3{
     margin-top: 10px;
 }
 
-.line_canzone{
+.linea_canzone{
     width: 70%;
     height: 5px;
     border: none;
@@ -345,8 +357,30 @@ h3{
     border: none;
     border-radius: 10px;
     width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
+.pallino{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: none;
+}
+
+.linea_canzone:hover, .linea_volume:hover{
+    cursor: pointer;
+}
+
+.linea_canzone:hover .linea_riprodotta, .linea_volume:hover .volume_selezionato{
+    background-color: #ADFF2F;
+}
+
+.linea_canzone:hover .linea_riprodotta .pallino, .linea_volume:hover .volume_selezionato .pallino{
+    display: block;
+}
 
 /* Volume */
 .volume{
@@ -376,6 +410,9 @@ h3{
     border: none;
     border-radius: 10px;
     width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }/* /Volume */
 /********* /Contenuto Footer **********/
 
