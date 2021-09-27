@@ -468,7 +468,11 @@ h3{
 
     /*********** Contenuto Footer ***********/
     .riproduzione{
+        width: 50%;
+    }
 
+    .volume > .none{
+        display: none;
     }
     /*********** /Contenuto Footer ***********/
 
