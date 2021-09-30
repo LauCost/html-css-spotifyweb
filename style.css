@@ -37,8 +37,6 @@ footer{
     height: 90px;
     width: 100%;
     background-color: #282828;
-    position: fixed;
-    z-index: 100;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,8 +52,6 @@ footer{
 .side_bar{
    width: 190px;
    height: calc(100vh - 90px);
-   position: fixed;
-   z-index: 100;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
